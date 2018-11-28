@@ -1,0 +1,23 @@
+{
+  "name": "history-of-async-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-callbacks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masonjwhite/fun-with-async-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masonjwhite/fun-with-async-code/issues"
+  },
+  "homepage": "https://github.com/masonjwhite/fun-with-async-code#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
