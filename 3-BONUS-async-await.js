@@ -12,7 +12,8 @@
       - Note the value that returns a promise (in this case the call to axios) is tagged with "await"
 
     - **ERROR HANDLING?** 
-      - We use a try/catch block to handle any potential errors that come up, Google try/catch for more info!
+      - We use a try/catch block to handle any potential errors that come up. 
+      - Google try/catch for more info!
 
     - **WHERE WILL I SEE IT?** 
       - Most modern codebases!
@@ -20,13 +21,17 @@
 
 var axios = require('axios');
 
+// Look how much cleaner this is!
 async function getData() {
 	try {
-		// Look how much cleaner this is!
-		var myData = await axios.get('/someEndpoint');
+		// This code returns a promise so we tag it with "await"
+		var myData = await axios.get('https://google.com');
 		console.log(myData);
 	} catch (error) {
 		// If things go wrong!
-		console.log('Ahh crap' + error);
+		console.log(error);
 	}
 }
+
+// Use our new async function!
+getData();

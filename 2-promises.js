@@ -16,7 +16,7 @@ var axios = require('axios');
 
 axios
 	// This returns a promise
-	.get('/someEndpoint')
+	.get('https://google.com')
 
 	// Then we chain our ".then" onto it
 	.then(function(response) {
