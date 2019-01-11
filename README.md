@@ -4,6 +4,8 @@ This repository is a part of my "fun with" series. Each and every day I challeng
 
 My bootcamp students were asking for some clarification on async javascript. So I built this exploration of the several glorious ways to handle async code!
 
+*Please note that these examples are mostly written in ES5 as not to confuse my students (they have not learned ES6 syntax yet).
+
 ## Included Examples
 
 1. Callbacks
