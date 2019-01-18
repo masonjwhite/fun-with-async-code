@@ -8,7 +8,7 @@ My bootcamp students were asking for some clarification on async javascript. So 
 
 ## Included Examples
 
-1. Callbacks
-2. Promises 
-2.5 Converting Callbacks to Promises
-3. Async/Await
+- Callbacks
+- Promises 
+- Converting Callbacks to Promises
+- Async/Await
